@@ -1,0 +1,259 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans';    
+    background-image: url(../images/bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg.jpg);
+
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+/* HEADER */
+
+.header {
+    background-image: url(../images/bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.header-line {
+    
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+
+    margin-right: 70px;
+    
+}
+
+.main-box {
+    box-sizing: border-box;
+    height: 110px;
+    width: 100%;
+    position: absolute;
+
+    border: 1px solid hwb(228 46% 10% / 0.173);
+    backdrop-filter: blur(17.5px);
+}
+
+/* CARDS */
+
+.card-main{
+
+    display: inline-block;
+    width: 1050px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 120px;
+
+    border: 1px solid hwb(228 46% 10% / 0.173);
+    backdrop-filter: blur(17.5px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px #00000040;
+
+}
+
+.card-title-main {
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-style: Semibold;
+    font-size: 24px;
+
+}
+
+.card-desc {
+    display: inline-block;
+    justify-content: center;
+    color: #fff;
+    font-style: Semibold;
+    font-size: 24px;
+    margin: 15px;
+    margin-top: -12px;
+
+
+}
+
+.card-img{
+
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image-description{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.btn-main{
+    background: rgba(204, 204, 204, 0.1);
+    color: #fff;
+    font-size: 20px;
+    width: auto;
+    border: 1px solid #6880DE;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(17.5px);  
+    width: auto;
+    border-radius: 10px;
+}
+
+
+
+.spacing {
+    padding-top: 20px;
+
+}
+
+.footer {
+    background-image: url(../images/bg.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    height: 110px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.footer-line {
+    
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.vvod-title-main {
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-style: Semibold;
+    font-size: 44px;
+
+}
+
+.vvod-zadachi {
+    display: inline-block;
+    justify-content: center;
+    color: #e2aff1;
+    font-style: Semibold;
+    font-size: 18px;
+    margin: 15px;
+    margin-top: -12px;
+}
+
+
+.button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1 {
+    font-size: 2rem;
+    background-color: #410083;
+}
+
+.card-notsomain{
+
+    display: inline-block;
+    width: 1050px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 120px;
+
+    border: 1px solid hwb(228 46% 10% / 0.173);
+    backdrop-filter: blur(17.5px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px #00000040;
+
+}
+
+.otvet-title-main {
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-style: Semibold;
+    font-size: 24px;
+
+}
+
+.card-notsomain{
+
+    display: inline-block;
+    width: 1050px;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 120px;
+
+    border: 1px solid hwb(228 46% 10% / 0.173);
+    backdrop-filter: blur(17.5px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px #00000040;
+
+}
+
+.otvetik-title-main {
+    padding: 18px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-style: Bold;
+    font-size: 32px;
+
+}
+
+
+.card-main-arif{
+
+    display: inline-block;
+    width: 1050px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 120px;
+
+    border: 1px solid hwb(228 46% 10% / 0.173);
+    backdrop-filter: blur(17.5px);
+    border-radius: 10px;
+    box-shadow: 0px 4px 25px 0px #00000040;
+
+}
+
+.card-title-nomer {
+    padding: 18px;
+    color: #fff;
+    font-style: italic;
+    font-size: 22px;
+
+}
