@@ -257,3 +257,11 @@ body{
     font-size: 22px;
 
 }
+
+.dropdown-text {
+    color: #fff;
+    font-size: 24px;
+    font-style: Semibold;
+    text-decoration: none;
+}
+
